@@ -1,7 +1,7 @@
 import { Markup } from 'telegraf';
 
 export default async (ctx) => {
-    const imageUrl = "https://image.google.com/image.png"; 
+    const imageUrl = "https://t.me/OpenUniverse01/15"; 
     const supportUrl = "https://t.me/Pro_Support_All_Time_bot";
     const welcomeText = "Welcome to PRO MULTIFUNCTIONAL BOT.\n\nUse /help to see available commands.";
 
