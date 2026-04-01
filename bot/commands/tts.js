@@ -14,7 +14,7 @@ export default async (ctx, params) => {
         await ctx.replyWithAudio({ source: new Uint8Array(arrayBuffer) }, { caption: "Spoken by Bot" });
         return true;
     } catch (e) {
-        await ctx.reply("Error generating speech.");
+        await ctx.reply("Error speech.");
         return false;
     }
 };
