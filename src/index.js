@@ -1,5 +1,5 @@
 import { Telegraf, Markup } from 'telegraf';
-import { checkAccess, grantAccess, incrementUsage } from '../bot/ad_logic/supabase.js';
+import { checkAccess, grantAccess, incrementUsage } from '../bot/ad_logic/database.js';
 
 import cmdStart from '../bot/commands/start.js';
 import cmdHelp from '../bot/commands/help.js';
